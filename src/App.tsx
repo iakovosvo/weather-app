@@ -3,6 +3,7 @@ import { Map } from "./components/Map/Map";
 import { WeatherInfoBox } from "./components/WeatherInfoBox/WeatherInfoBox";
 import { Unit, WeatherParams } from "./typings/WeatherParams";
 import { useState } from "react";
+import "./App.css";
 
 function App() {
   const queryClient = new QueryClient();
