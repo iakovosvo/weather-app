@@ -1,0 +1,23 @@
+.infoBoxContainer {
+    display:  flex;
+    flex-basis: 28rem;
+    flex-direction: column;
+    border-radius: 4px;
+    min-height: 208px;
+}
+
+.locationInfo {
+    font-size: 1rem;
+    display: flex;
+    flex-direction: column;
+}
+
+.temperature {
+    font-size: 4rem;
+    font-weight: 700;
+    line-height: 1.1;
+}
+
+.infoText {
+    font-weight: 600;
+}

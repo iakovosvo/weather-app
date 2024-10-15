@@ -5,6 +5,7 @@ https://www.joshwcomeau.com/css/custom-css-reset
 */
 *, *::before, *::after {
   box-sizing: border-box;
+  
 }
 
 /*
@@ -20,6 +21,7 @@ https://www.joshwcomeau.com/css/custom-css-reset
   4. Improve text rendering
 */
 body {
+  font-family: system-ui, -apple-system, 'Open Sans', 'Helvetica Neue', sans-serif;
   line-height: 1.5;
   -webkit-font-smoothing: antialiased;
 }
